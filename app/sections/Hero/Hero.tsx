@@ -24,8 +24,8 @@ const Hero = () => {
           materials.
         </p>
         <div className="flex flex-col  items-start mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-start sm:space-y-0 sm:space-x-4">
-          <Link
-            href="#"
+          <button
+            type="button"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
           >
             Learn more
@@ -41,13 +41,13 @@ const Hero = () => {
                 clip-rule="evenodd"
               ></path>
             </svg>
-          </Link>
-          <a
-            href="#"
+          </button>
+          <button
+            type="button"
             className="inline-flex justify-center items-center py-3 px-7 text-base font-medium text-center text-gray-900 rounded-lg border border-button_green-300 bg-button_green-500"
           >
             Shop Sustainable &gt;
-          </a>
+          </button>
         </div>
       </div>
     </section>
