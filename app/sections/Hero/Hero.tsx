@@ -13,7 +13,7 @@ const Hero = () => {
       />
       <div className="flex flex-col space-y-2 md:space-y-6">
         <span className="font-light text-base">Build for Sustainability</span>
-        <h1 className="mb-4 text-5xl md:text-8xl lg:text-9xl max-w-5xl font-extrabold tracking-tight leading-none">
+        <h1 className="mb-4 text-5xl md:text-8xl lg:text-[7rem] max-w-5xl font-extrabold tracking-tight leading-none">
           Step into a <span className="text-button_green-500">Sustainable</span>{" "}
           Future with ReWear
         </h1>
@@ -38,7 +38,7 @@ const Hero = () => {
               <path
                 fill-rule="evenodd"
                 d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </svg>
           </button>
