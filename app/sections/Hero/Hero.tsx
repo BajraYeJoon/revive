@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Shoes from "../../../public/shoes.png";
-import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -8,12 +7,12 @@ const Hero = () => {
       <div className="hidden sm:block hero-gradient"></div>
       <Image
         src={Shoes}
-        className="hidden lg:block md:absolute md:-right-[420px] md:top-28 md:h-[90vh] md:w-[90vw] md:object-contain"
+        className="hidden lg:block md:absolute md:-right-[450px] md:top-28 md:h-[90vh] md:w-[90vw] md:object-contain"
         alt="shoes"
       />
       <div className="flex flex-col space-y-2 md:space-y-6">
         <span className="font-light text-base">Build for Sustainability</span>
-        <h1 className="mb-4 text-5xl md:text-8xl lg:text-[7rem] max-w-5xl font-extrabold tracking-tight leading-none">
+        <h1 className="mb-4 text-5xl md:text-8xl lg:text-[7rem] max-w-5xl font-extrabold tracking-normal leading-none">
           Step into a <span className="text-button_green-500">Sustainable</span>{" "}
           Future with ReWear
         </h1>
@@ -36,7 +35,7 @@ const Hero = () => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
                 clipRule="evenodd"
               ></path>
