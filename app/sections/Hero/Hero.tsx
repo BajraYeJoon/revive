@@ -12,7 +12,7 @@ const Hero = () => {
       />
       <div className="flex flex-col space-y-2 md:space-y-6">
         <span className="font-light text-base">Build for Sustainability</span>
-        <h1 className="mb-4 text-5xl md:text-8xl lg:text-[7rem] max-w-5xl font-extrabold tracking-normal leading-none">
+        <h1 className="mb-4 text-5xl md:text-8xl lg:text-[8rem] max-w-5xl font-extrabold tracking-normal leading-none">
           Step into a <span className="text-button_green-500">Sustainable</span>{" "}
           Future with ReWear
         </h1>
