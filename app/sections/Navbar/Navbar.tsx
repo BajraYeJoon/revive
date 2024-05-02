@@ -10,7 +10,7 @@ const Navbar = () => (
     </div>
 
     {/* Navigation Items */}
-    <div className="flex  justify-center hidden lg:flex">
+    <div className="  justify-center hidden lg:flex">
       {navLists.map((nav) => (
         <div
           key={nav}
